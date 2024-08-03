@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 200 50" width="200" height="50" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsBx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="185.641" y1="123.713" x2="185.641" y2="152.889" id="gradient-0" gradientTransform="matrix(0.687127, 0.740457, -0.566429, 0.486589, -19.514402, -175.509277)">
+      <stop offset="0" style="stop-color: rgb(69.412% 74.902% 100%)"/>
+      <stop offset="1" style="stop-color: rgb(36.636% 42.907% 65.614%)"/>
+    </linearGradient>
+    <pattern id="pattern-0-0" patternTransform="matrix(1.031704, 0, 0, 0.992647, 8.547169, 9.454933)" xlinkHref="#pattern-0"/>
+    <pattern x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse" viewBox="0 0 100 100" id="pattern-0">
+      <rect x="0" y="0" width="50" height="100" style="fill: black;"/>
+    </pattern>
+    <style bxFonts="Akronim">@import url(https://fonts.googleapis.com/css2?family=Akronim%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(250, 237, 255); font-family: Akronim; font-size: 47px; white-space: pre;" x="203.374" y="155.75" transform="matrix(0.8083190321922301, 0, 0, 0.9926469326019287, -125.24270816508988, -113.13250138062983)">TeenGud</text>
+  <path d="M 36.777 7.383 L 39.741 36.344 L 3.147 36.344 L 36.777 7.383 Z" style="fill-opacity: 0.89; fill-rule: nonzero; stroke-opacity: 0; stroke-width: 16px; stroke-linecap: round; stroke: url('#pattern-0-0'); paint-order: stroke; fill: url('#gradient-0');" bxShape="triangle 3.147 7.383 36.594 28.961 0.919 0 1@cec55445"/>
+</svg>

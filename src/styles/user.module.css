@@ -1,0 +1,85 @@
+@import 'index';
+
+.wrapper {
+    height: 70vh;
+    width: 40vw;
+    background-color: var(--color3);
+    margin-left: -240px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 13px 11px 13px 2px rgba(109, 36, 131, 0.27);
+    -moz-box-shadow: 13px 11px 13px 2px rgba(109, 36, 131, 0.27);
+    box-shadow: 13px 11px 13px 2px rgba(109, 36, 131, 0.27);
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.close > svg {
+    transition: fill .2s;
+}
+.close > svg:hover {
+    fill: var(--color9);
+}
+.title {
+    padding-top: 30px;
+}
+.group {
+    width: 200px;
+    height: 40px;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    border-radius: 6px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    align-items: center;
+}
+.link {
+    color: rgba(157, 157, 157, 0.518);
+    font-size: 13px;
+    cursor: pointer;
+    transition: color .2s;
+}
+.link:hover{
+    color: var(--color9);
+}
+.submit {
+    border: none;
+    border-radius: 6px;
+    background-color: var(--color5);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 36px;
+    width: 160px;
+    transition: background-color .2s;
+}
+.submit:hover {
+    background-color: var(--color9);
+}
+.group > input::placeholder {
+    color: rgba(157, 157, 157, 0.518);
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(63, 63, 63, 0.555);
+
+}

@@ -1,0 +1,87 @@
+@import 'index';
+
+.banner {
+    display: flex;
+    width: 86vw;
+    height: 70vh;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: var(--color3);
+    margin-bottom: 20px;
+    margin-left: -16vw;
+    align-items: center;
+    justify-content: space-around;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90px;
+    color: var(--color5);
+    font-weight: 400;
+}
+.content > span {
+    font-size: 100px;
+    font-weight: 700;
+    color: var(--color9);
+}
+.more {
+    border: none;
+    background-color: var(--color5);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color .2s;
+    cursor: pointer;
+}
+.more:hover {
+    background-color: var(--color9);
+}
+.left {
+    text-align: center;
+}
+.right {
+    width: 50vw;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.discount {
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.sale {
+    position: absolute;
+    z-index: 3;
+    left: 25%;
+    top: 25%;
+}
+.sb {
+    position: absolute;
+    z-index: 3;
+    bottom: -2%;
+    left: -25%;
+}
+.ps5 {
+    position: absolute;
+    z-index: -7;
+    top: -7%;
+    left: -76%;
+}
+.sneakers {
+    position: absolute;
+    z-index: -7;
+    top: 0%;
+    left: -20%;
+    rotate: 45deg;
+}

@@ -1,0 +1,123 @@
+@import 'index';
+
+.cart {
+    height: auto;
+    width: 70vw;
+    background-color: var(--color3);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 90px;
+}
+.item {
+    width: 66vw;
+    height: 110px;
+    padding: 10px;
+    display: flex;
+    column-gap: 12px;
+    background-color: var(--color2);
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+}
+.image {
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url("https://ae04.alicdn.com/kf/A09e581e05d854a21bfd3f6689e923d99O.jpg");
+}
+.name {
+    font-size: 18px;
+    width: 300px;
+}
+.category {
+    font-size: 14px;
+    color: rgba(149, 148, 148, 0.711);
+}
+.info {
+    margin-top: -30px;
+    margin-right: 160px;
+}
+.price {
+    font-size: 16px;
+    margin-right: 30px;
+}
+.quantity {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-right: 200px;
+}
+.delete {
+    margin-top: -80px;
+    margin-left: 30px;
+    position: absolute;
+    top: 88px;
+    right: 10px;
+}
+.delete > svg {
+    /* fill: white; */
+    transition: fill .2s;
+}
+.delete > svg:hover {
+    fill: rgba(209, 209, 209, 0.641);
+}
+.actions {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 650px;
+    margin-top: 80px;
+    flex-direction: row;
+    /* margin-bottom: 30px; */
+
+}
+.total {
+    position: absolute;
+    right: 84px;
+    top: 50px;
+}
+.proceed {
+    width: 150px;
+    height: 40px;
+    background-color: var(--color4);
+    border-radius: 6px;
+    border: none;
+    transition: background-color .2s;
+    color: white;
+}
+.proceed:hover {
+    background-color: var(--color9);
+}
+.minus > svg {
+    transition: fill .4s;
+}
+.minus > svg:hover {
+    fill: rgba(209, 209, 209, 0.641);
+}
+.plus > svg {
+    transition: fill .4s;
+}
+.plus > svg:hover {
+    fill: rgba(209, 209, 209, 0.641);
+}
+.total > span {
+    font-weight: 600;
+}

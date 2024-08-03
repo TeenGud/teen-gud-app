@@ -1,0 +1,63 @@
+@import 'index';
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.filters {
+    display: flex;
+    column-gap: 50px;
+}
+.filter > input {
+    width: 300px;
+    height: 40px;
+    background-color: var(--color2);
+    border-radius: 6px;
+    padding: 10px;
+}
+.filter > span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.more > button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--color5);
+    border-radius: 6px;
+    transition: background-color .2s;
+    margin-left: 360px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+.more > button:hover {
+    background-color: var(--color9);
+}
+.back {
+    display: flex;
+    column-gap: 50px;
+    margin-left: 10px;
+    align-items: center;
+}
+.back_button {
+    width: 120px;
+    height: 40px;
+    background-color: var(--color5);
+    border-radius: 6px;
+    transition: background-color .2s;
+    /* margin-left: 360px; */
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+.back_button:hover {
+    background-color: var(--color9);
+}

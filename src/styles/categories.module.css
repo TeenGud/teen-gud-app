@@ -1,0 +1,40 @@
+@import 'index';
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 86vw;
+    height: 50vh;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: var(--color3);
+    margin-bottom: 20px;
+    margin-left: -16vw;
+    align-items: center;
+}
+h2 {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.image {
+    width: 14vw;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+.item {
+    color: white;
+    transition: color .2s;
+}
+.item:hover {
+    color: var(--color9);
+}

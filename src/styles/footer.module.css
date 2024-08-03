@@ -1,0 +1,30 @@
+@import 'index';
+.footer {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: var(--color2);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.rights {
+    font-size: 18px;
+}
+.rights a {
+    text-decoration: none;
+}
+.rights a:hover {
+    color: var(--color9);
+    transition: all .25s ease;
+}
+.socials {
+    display: flex;
+    column-gap: 10px;
+}
+svg:hover {
+    transition: all .25s;
+    stroke: white;
+}

@@ -1,0 +1,50 @@
+@import 'index';
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    background-color: var(--color3);
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.group {
+    width: 60vw;
+    height: 40px;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.group > input {
+    width: 60vw;
+    height: 40px;
+    padding-right: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.group > input::placeholder {
+    color: rgba(157, 157, 157, 0.518);
+}
+.submit {
+    width: 60vw;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color5);
+    transition: background-color .2s;
+    color: white;
+    margin-top: 100px;
+    font-weight: 500;
+}
+.submit:hover {
+    background-color: var(--color9);
+}

@@ -1,0 +1,131 @@
+@import 'index';
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+.header {
+    display: flex;
+    column-gap: 200px;
+    align-items: start;
+}
+.user {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    min-width: 250px;
+    cursor: pointer;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 220px;
+    height: 60px;
+    row-gap: 10px;
+}
+input {
+    all: unset;
+    width: 250px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    column-gap: 160px;
+}
+.input {
+    border: none;
+    font-size: 12px;
+    z-index: 2;
+}
+.icon{
+
+}
+.account {
+    display: flex;
+    column-gap: 10px;
+
+}
+.card {
+    text-decoration: none;
+    color: white;
+    font-family: "DM Mono", monospace;
+    font-size: 16px;
+    position: relative;
+}
+.count {
+    position: absolute;
+    background-color: var(--color4);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 0;
+    right: -10px;
+}
+.favourites svg{
+    transition: all .25s;
+}
+.favourites svg:hover {
+    fill: rgb(255, 253, 253);
+    stroke: rgb(255, 253, 253);
+}
+.card svg{
+    transition: all .25s;
+}
+.card svg:hover {
+    fill: rgb(255, 253, 253);
+    stroke: rgb(255, 253, 253);
+}
+.card svg > path:hover {
+    fill: rgb(255, 253, 253);
+    stroke: rgb(255, 253, 253);
+}
+.box {
+    width: 420px;
+    height: auto;
+    background: var(--color2);
+    align-items: center;
+    column-gap: 10px;
+    padding: 0 10px;
+    border-radius: 20px;
+    z-index: 100;
+    
+}
+.formBox {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    column-gap: 10px;
+    background: #000;
+    border-radius: 20px;
+}
+.item {
+    text-decoration: none;
+    width: 400px;
+    height: 80px;
+    transition: background-color .2s;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.item:hover {
+    background-color: var(--color9);
+}
+.image {
+    align-self: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 6px;
+    background-position: center;
+    background-size: cover;
+}
+.title {
+    color: white;
+    font-size: 16px;
+}

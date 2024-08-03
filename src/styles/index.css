@@ -1,0 +1,33 @@
+:root {
+    --color1: #0C0019;
+    --color2: #11071D;
+    --color3: #120026;
+    --color4: #592694;
+    --color5: #694494;
+
+    --color6: #270022;
+    --color7: #1D071B;
+    --color8: #1A0016;
+    --color9: #952687;
+    --color10: #95448B;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--color1);
+    color: white;
+    font-size: 20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.app {
+    padding: 20px 80px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    column-gap: 30px;
+}
